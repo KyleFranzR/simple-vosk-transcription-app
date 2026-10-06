@@ -26,7 +26,7 @@ A Python desktop application built with **CustomTkinter** and **Vosk** for offli
 │   ├── docu_proc.py                       # Document text extraction (.docx, .pdf)
 │   ├── image_proc.py                      # OCR image processing (.png, .jpg, etc.)
 │   ├── media_proc.py                      # Audio/video transcription
-│   ├── tesseract/                         # Local Tesseract OCR binaries
+│   ├── Tesseract-OCR/                     # Local Tesseract OCR binaries
 │   └── ffmpeg.exe                         # Local FFmpeg binary
 ├── gui.py                                 # CustomTkinter GUI implementation
 ├── main.py                                # Main application entry point
