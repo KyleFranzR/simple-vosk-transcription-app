@@ -1,0 +1,61 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment & Secret Files (CRITICAL)
+.env
+.env*.local
+*.pem
+*.key
+
+# IDEs and Editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Node.js / Web
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+dist/
+build/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+
+# Logs
+*.log
+logs/
+
+# Vosk Speech Models
+asr/models/*
+!asr/models/.gitkeep
+
+# Executables & Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+ffmpeg/
+tesseract/
+services/Tesseract-OCR/*

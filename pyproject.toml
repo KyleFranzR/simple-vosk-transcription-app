@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "app-test_vosk-engine"
+version = "0.1.0"
+description = "Speech recognition and text extraction application using Vosk, Tesseract OCR, and FFmpeg."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "customtkinter",
+    "vosk",
+    "pyaudio",
+    "pytesseract",
+    "Pillow",
+    "pypdf",
+    "docx2txt",
+    "pywin32; sys_platform == 'win32'",
+]
+
+[project.scripts]
+app-test-vosk = "main:main"
