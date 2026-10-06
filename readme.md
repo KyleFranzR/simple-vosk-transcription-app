@@ -106,7 +106,7 @@ Because large binaries and models are excluded from version control, you must pl
 * Download the Tesseract binaries for your operating system.
 * Place the folder inside `services/` so the path resolves to:
 ```text
-services/tesseract/
+services/Tesseract-OCR/
 
 ```
 
